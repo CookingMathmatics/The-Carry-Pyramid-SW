@@ -54,6 +54,9 @@ As stated in our official Wadiz A/S policy, **we do not provide telephone/voice 
 * **Error / Bug Report:** Please open a detailed ticket in the [Issues] tab of this repository. Be sure to include your OS version and system logs (excluding your private license key).
 * **License Re-issuance:** Contact us via the registered developer email (`dragoonrush8104@gmail.com`) with your Wadiz Backer ID.
 
+본 엔진은 입력되는 네트워크 신호의 엔트로피를 비선형 동역학 방정식으로 처리하여, 비정상적 스캔 패턴을 탐지하고 프랙탈 메모리 팽창(Tarpit)을 통해 공격자의 연산 자원을 고갈시키는 것을 목적으로 합니다.
+현재 C++로 코어 엔진을 재구현하며 텔레그램 모듈과 결합하는 교차 검증 과정을 진행 중입니다.
+
 ---
 
 ## 📄 License
